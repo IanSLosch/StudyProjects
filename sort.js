@@ -7,4 +7,4 @@
 
 const integers = [19, 43, 15, 71, 8, 29]
 function ascendingSort(a, b) {return a - b}
-console.log(integers.sort(ascendingSort))
+console.log(integers.sort(ascendingSort).join())
